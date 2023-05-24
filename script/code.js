@@ -18,8 +18,21 @@
 // 8. Define hoisting and variable scoping?:Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase before the code is executed. This means that you can use variables and functions before they are actually declared in the code, whereas variable scoping refers to the visibility and accessibility of variables within different parts of the code. JavaScript has different scopes, including global scope, function scope, and block scope (introduced with let and const in ES6).
 
 // How to create a function called fullName that returns your full name and displays it on the console. 
-function display (value){
-    console.log(value)
+// function display (value){
+//     console.log(value)
+// }
+// let fullName = 'Jason Viljoen'
+// display(fullName)
+
+let firstName = 'Jason';
+let lastName = 'Viljoen';
+let age = 24;
+let subjects = ['Math, Physics, Eng, Afr, ETech, Bio, L.O']
+let address = {   
+    street: 'Karneool street',
+    streetNumber: 7001,
+    suburb: 'Bluedowns',
+    city: 'Cape Town',
+    countryName: 'South Africa'
 }
-let fullName = 'Jason Viljoen'
-display(fullName)
+console.log(firstName, lastName, age, subjects, address)
