@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    background: url(https://i.postimg.cc/9Q73GdQc/pexels-pixabay-207353.jpg);
+    
+    
+}
+    
+
+.content{
+    color: beige;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+#heading{
+    color: beige;
+}
+
+
+
+@media screen (max-width: 300px){
+    .content{
+        
+    }
+}
