@@ -24,15 +24,66 @@
 // let fullName = 'Jason Viljoen'
 // display(fullName)
 
-let firstName = 'Jason';
-let lastName = 'Viljoen';
-let age = 24;
-let subjects = ['Math, Physics, Eng, Afr, ETech, Bio, L.O']
-let address = {   
-    street: 'Karneool street',
-    streetNumber: 7001,
-    suburb: 'Bluedowns',
-    city: 'Cape Town',
-    countryName: 'South Africa'
-}
-console.log(firstName, lastName, age, subjects, address)
+// let firstName = 'Jason';
+// let lastName = 'Viljoen';
+// let age = 24;
+// let subjects = ['Math, Physics, Eng, Afr, ETech, Bio, L.O']
+// let address = {   
+//     street: 'Karneool street',
+//     streetNumber: 7001,
+//     suburb: 'Bluedowns',
+//     city: 'Cape Town',
+//     countryName: 'South Africa'
+// }
+// console.log(firstName, lastName, age, subjects, address)
+
+
+// function display () {
+//     let number1 = parseInt(document.querySelectorById('number1').value)
+//     let number2 = parseInt(document.querySelectorById('number2').value)
+//     let operator = document.querySelectorById('operator').value
+// }
+
+// let result;
+
+// switch(operator){
+// case'+': result = number1 + number2;
+// break;
+// case '-': result = number1 - number2;
+// break;
+// case '*': result = number1 * number2;
+// break;
+// case '/': result = number1 / number2;
+// break;
+// default: result = 'invalid operator'
+// } 
+
+// document.getElementById('result').innerHTML = 'Answer:' + display;
+
+function display() {
+    let number1 = parseInt(document.getElementById('number1').value);
+    let number2 = parseInt(document.getElementById('number2').value);
+    let operator = document.getElementById('operator').value;
+    let result;
+  
+    
+    switch (operator) {
+      case '+':
+        result = number1 + number2;
+        break;
+      case '-':
+        result = number1 - number2;
+        break;
+      case '*':
+        result = number1 * number2;
+        break;
+      case '/':
+        result = number1 / number2;
+        break;
+      default:
+        result = 'Invalid operator';
+    }
+  
+    document.getElementById('result').innerHTML = 'Answer: ' + result;
+  }
+  
