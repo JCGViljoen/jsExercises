@@ -87,6 +87,42 @@
 //     document.getElementById('result').innerHTML = 'Answer: ' + result;
 //   }
   
-let subjects = ['p'+ 'r'+ 'o'+ 'g'+ 'r' +'a'+ 'm'+ 'm'+ 'i'+ 'n'+ 'g']
-let rev = subjects.reverse();
-console.log(rev.join());
+// let subjects = ['p'+ 'r'+ 'o'+ 'g'+ 'r' +'a'+ 'm'+ 'm'+ 'i'+ 'n'+ 'g']
+// let rev = subjects.reverse();
+// console.log(rev.join());
+
+//  let personInformation = {
+//      firstName: ('Mish'),
+//      dob: ('2020-05-31'),
+//      age: (2),
+//      daysLeftBeforeHisBday:(2)  
+//  }
+
+//  console.log(personInformation);
+//  console.log(personInformation.age);
+//  console.log(personInformation.daysLeftBeforeHisBday);
+ 
+let info = [
+  {
+      name:'Mish-Al',
+      dob:'2020-05-31'
+},{
+  name:"Rabia Haucha",
+  dob:"2003-05-21"
+}
+]
+let todaysDate = new Date();
+let otherDate = new Date (info[0].dob)
+console.log(otherDate)
+console.log(todaysDate)
+console.log(todaysDate.getFullYear())
+console.log(otherDate.getFullYear())
+console.log(otherDate.getDate() -todaysDate.getDate()," Days Left until Mish's birthday",);
+console.log('Mish is : ', otherDate.getDate() - todaysDate.getDate(), 'years old!')
+
+
+
+
+
+
+
