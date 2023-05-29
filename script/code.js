@@ -60,30 +60,33 @@
 
 // document.getElementById('result').innerHTML = 'Answer:' + display;
 
-function display() {
-    let number1 = parseInt(document.getElementById('number1').value);
-    let number2 = parseInt(document.getElementById('number2').value);
-    let operator = document.getElementById('operator').value;
-    let result;
+// function display() {
+//     let number1 = parseInt(document.getElementById('number1').value);
+//     let number2 = parseInt(document.getElementById('number2').value);
+//     let operator = document.getElementById('operator').value;
+//     let result;
   
     
-    switch (operator) {
-      case '+':
-        result = number1 + number2;
-        break;
-      case '-':
-        result = number1 - number2;
-        break;
-      case '*':
-        result = number1 * number2;
-        break;
-      case '/':
-        result = number1 / number2;
-        break;
-      default:
-        result = 'Invalid operator';
-    }
+//     switch (operator) {
+//       case '+':
+//         result = number1 + number2;
+//         break;
+//       case '-':
+//         result = number1 - number2;
+//         break;
+//       case '*':
+//         result = number1 * number2;
+//         break;
+//       case '/':
+//         result = number1 / number2;
+//         break;
+//       default:
+//         result = 'Invalid operator';
+//     }
   
-    document.getElementById('result').innerHTML = 'Answer: ' + result;
-  }
+//     document.getElementById('result').innerHTML = 'Answer: ' + result;
+//   }
   
+let subjects = ['p'+ 'r'+ 'o'+ 'g'+ 'r' +'a'+ 'm'+ 'm'+ 'i'+ 'n'+ 'g']
+let rev = subjects.reverse();
+console.log(rev.join());
